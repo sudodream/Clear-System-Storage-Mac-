@@ -1,0 +1,22 @@
+HOW TO CLEAR SYSTEM STORAGE ON MAC  
+
+*THIS DELETES TIME MACHINE BACKUPS* 
+
+1. OPEN SPOTLIGHT SEARCH - COMMAND + SPACEBAR
+
+2. TYPE IN "TERMINAL"
+
+3. ONCE IN TERMINAL, TYPE:
+
+     tmutil listlocalsnapshotdates
+
+*Typing just "tmutil" will list all commands*
+
+4. DELETE OLD BACKUPS BY TYPING:
+
+     tmutil deletelocalsnapshots 2023-10-04-whatever numbers are listed here
+
+7. HOVER OVER APPLE ICON IN THE TOP-LEFT CORNER AND CLICK ON "ABOUT THIS MAC"
+
+8. CLICK ON "MORE INFO" AND CHECK HOW MUCH STORAGE HAS BEEN DELETED.
+
